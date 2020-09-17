@@ -3,7 +3,7 @@ import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
 import FlagIcon from '@material-ui/icons/Flag';
-import SubscribtionsOutlinedIcon from '@material-ui/icons/SubscribtionsOutlined';
+import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined';
 import StorefrontOutlinedIcon from '@material-ui/icons/StorefrontOutlined';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
 
@@ -29,7 +29,7 @@ function Header() {
                   <FlagIcon fontSize="large" />
               </div>
               <div className="header__option">
-                  <SubscribtionsOutlinedIcon fontSize="large" />
+                  <SubscriptionsOutlinedIcon fontSize="large" />
               </div>
               <div className="header__option">
                   <StorefrontOutlinedIcon fontSize="large" />
