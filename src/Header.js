@@ -24,11 +24,11 @@ function Header() {
             />
             <div className="header__input">
                 <SearchIcon />
-                <input type="text" />
+                <input type="text" placeholder="Search FaceBook" />
             </div>
             </div>
             <div className="header__center">
-              <div className="header__option">
+              <div className="header__option--active">
                   <HomeIcon fontSize="large" />
               </div>
               <div className="header__option">
@@ -49,6 +49,7 @@ function Header() {
                     <Avatar />
                     <h4>Mohib Arsala</h4>
                 </div>
+                <div className="header__icon">
                 <IconButton>
                     <AddIcon />
                 </IconButton>
@@ -61,6 +62,7 @@ function Header() {
                 <IconButton>
                     <ExpandMoreIcon />
                 </IconButton>
+                </div>
             </div>
         </div>
     )
