@@ -6,7 +6,7 @@
     width: 120px;
     height: 200px;
     box-shadow: 0px 5px 7px --7px rgba(0, 0, 0, 0.75);
-    transition: trnsform 100ms ease-in;
+    transition: transform 100ms ease-in;
     border-radius: 8px;
     margin-right: 10px;
     cursor: pointer;
