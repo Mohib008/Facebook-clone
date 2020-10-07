@@ -5,15 +5,17 @@ import Feed from './Feed';
 import Widgets from "./Widgets";
 import Login from './Login';
 import './App.css';
+import { useStateValue } from "./StateProvider";
 
 function App() {
-  const user = null;
+  const [{user}, dispatch] = useStateValue();
+  
   return (
     //BEM naming convention
     <div className="app">
-    {!user ? (
+    {! user ? (
       <Login />
-    ):(
+    ) : (
       <>
        <Header />
        <div className="app__body">
